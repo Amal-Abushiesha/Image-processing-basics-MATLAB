@@ -1,0 +1,4 @@
+I = imread('img.png');
+noisyI = imnoise(I , 'salt & pepper', 0.05);
+noiseFree = fspecial(
+subplot(1 , 2 , 1); imshow(noisyI);subplot(1 , 2 , 2); imshow(noiseFree);

@@ -1,0 +1,4 @@
+I = imread('fimg.jpg');
+grayScaledImg = rgb2gray(I);
+edges = edge(grayScaledImg, 'sobel');
+

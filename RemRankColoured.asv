@@ -1,0 +1,9 @@
+I  = imread('fimg.jpg');
+noisyI = imnoise(I , 'salt & pepper',0.05);
+Rch = noisyI( : , : , 1);
+Gch = noisyI( : , : , 2);
+Bch = noisyI( : , : , 3);
+
+remrch = orderfilt2(Rch , 15, one(3 , 3));
+remgch = medfilt2(Gch , [3 3]);
+rembch = medfilt2(Bch , [3 3]);

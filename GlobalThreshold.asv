@@ -1,0 +1,2 @@
+I = imread('fimg.jpg');
+threshValue = greyth
