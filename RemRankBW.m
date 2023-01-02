@@ -1,7 +1,7 @@
 I  = imread('fimg.jpg');
 noisyI = imnoise(I , 'salt & pepper',0.05);
 
-bw = im2bw(I);
+bw = im2bw(noisyI);
 
 max_fil = ordfilt2(bw,9,ones(3));
 min_fil = ordfilt2(bw,1,ones(3));
