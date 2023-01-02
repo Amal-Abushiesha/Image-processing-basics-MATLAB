@@ -13,5 +13,9 @@ Some Basic Image processing codes for:
        - unsharp masking
 - Global Threshold
 - Adaptive threshold
-
+- Spatial Transform:
+  * Crop
+  * Rotate
+  * Resize
+  
   
