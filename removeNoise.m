@@ -1,3 +1,8 @@
+%NOTE!!!!!!!!!!!!!!!!!!!!1
+%THIS IS ONLY FOR PRACTICE YOU DON'T HAVE TO STUDY THIS!!!!!!!!
+%_________________YOU HAVE BEEN WARNED lol__________________________
+
+
 % Write a function that takes the noisy color image as input and performs 
 % noise removal with a method ( average , median, Gaussian , Rank )
 
